@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
+/* Container for the form */
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the heading */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Custom file input button */
+label {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+label:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the upload button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e88e5;
+}
+
+/* Margin between buttons */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Styling for no file chosen */
+.file-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
